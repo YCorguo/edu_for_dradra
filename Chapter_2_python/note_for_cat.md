@@ -44,4 +44,13 @@ for key, value in d.items():
   1. json.dump(my_str, f)
   2. a = json.load(f)
 
-
+### 测试
+#### 测试示例代码
+  ```python
+  # my_add.py
+  def my_add(a, b):
+      return a + b
+  ```
+  ```
+  # test_func.py
+  
