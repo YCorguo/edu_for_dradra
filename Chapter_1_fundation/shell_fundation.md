@@ -12,6 +12,11 @@
 ## cd
 打开某某文件夹。
 
+## mv
+### mv a.txt b.txt 将a.txt文件重命名为b.txt文件
+### mv a/c.txt b/c.txt 将a文件夹中的c.txt文件移动到b文件夹中，名字仍为c.txt
+### mv a/c.txt b/d.txt 将a文件夹中的c.txt文件移动到d文件夹中，名字更改为d.txt
+
 ## mkdir xx
 创建'xx'文件夹。
 
@@ -34,3 +39,13 @@ ssh是一个协议名称。
 将电脑内的git仓库中的修改同步到远程仓库。
 ### git clone git@github.com:YCorguo/edu_for_dradra.git
 将"git@github.com:YCorguo/edu_for_dradra.git"git仓库克隆到本地。如果具有权限，则可以将修改push到远程仓库。
+
+## Esc
+退出编辑模式。
+
+## :
+### 要用英文的冒号
+### w 保存
+### q 退出
+### q! 强制退出
+### set paste 粘贴模式
