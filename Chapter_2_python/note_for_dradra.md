@@ -51,6 +51,7 @@ c = a[:]
 c.remove(2)
 print(c) # [0, 4, 2, 3, 2]
 print(a) # [2, 0, 4, 2, 3, 2]
+```
 
 ### 底层逻辑
 #### 创建
@@ -64,9 +65,11 @@ print(a) # [2, 0, 4, 2, 3, 2]
   ```
 
 #### 判空
+  ```
   def ListEmpty(a : list): -> bool
       if len(a) == 0: return False
       return True
+  ```
 
 #### 插入
   实现在i位置的插入
@@ -93,8 +96,8 @@ print(a) # [2, 0, 4, 2, 3, 2]
       if i == len(a):
           return False
       return IndexInsert(a, i, x)
-  ```
   # ElementInsert(a, 3, 7)
+  ```
 
 #### 修改
   ```
